@@ -19,9 +19,16 @@
 </template>
 
 <script setup>
-import { computed } from "vue";
+import { computed, onMounted } from "vue";
 import store from "../store";
+import { ApiService } from "../service/apiService";
 
-const meals = computed(() => store.state.meals);
+const api = new ApiService("https://www.themealdb.com/api/json/v1/1/");
+
 const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("");
+
+onMounted(async () => {
+  const response = await api.getAllMeals();
+  console.log(response);
+});
 </script>
