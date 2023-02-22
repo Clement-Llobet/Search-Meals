@@ -18,4 +18,10 @@ export class ApiService {
         const response = await axios.get(url);
         return response.data
     }
+
+    getMealById = async (id) => {
+        let url = this.urlBase + `lookup.php?i=${id}`;
+        const response = await axios.get(url);
+        return response.data
+    }
 }
