@@ -24,4 +24,16 @@ export class ApiService {
         const response = await axios.get(url);
         return response.data
     }
+
+    getMealByLetter = async (letter) => {
+        let url = this.urlBase + `search.php?f=${letter}`;
+        const response = await axios.get(url);
+        return response.data
+    }
+
+    getMealByIngredient = async (ingredient) => {
+        let url = this.urlBase + `filter.php?i=${ingredient}`;
+        const response = await axios.get(url);
+        return response.data
+    }
 }
