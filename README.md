@@ -1,7 +1,28 @@
-# Vue 3 + Vite
+# Projet : Search Meals
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+---
 
-## Recommended IDE Setup
+L'application récupère les données d'une API de recettes de cuisine et renvoie ces données.
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+L'utilisateur peut choisir de rechercher par recette, par lettre ou par ingrédient.
+L'application lui renvoie les données spécifiques demandées.
+
+## Stack :
+
+- **Vue.js**
+- Javascript
+- Tailwind CSS
+- HTML
+
+## Installation :
+
+1 - Tout d'abord, clonez ce dépôt.
+2 - Ouvrez un terminal et placez-vous à la racine du projet
+3 - Entrez la commande `npm install`
+4 - Une fois l'installation terminée, entrez `npm run dev` pour lancer l'application.
+5 - L'application s'ouvre à l'adresse `http://localhost:3000`
+
+## Note :
+
+Vous remarquerez qu'un fichier `.env` est déjà présent.
+Il ne contient aucune information sensible. Il est ici pour les besoins de l'application.
