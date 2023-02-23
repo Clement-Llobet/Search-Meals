@@ -16,11 +16,11 @@ L'application lui renvoie les données spécifiques demandées.
 
 ## Installation :
 
-1 - Tout d'abord, clonez ce dépôt.
-2 - Ouvrez un terminal et placez-vous à la racine du projet
-3 - Entrez la commande `npm install`
-4 - Une fois l'installation terminée, entrez `npm run dev` pour lancer l'application.
-5 - L'application s'ouvre à l'adresse `http://localhost:3000`
+- Tout d'abord, clonez ce dépôt.
+- Ouvrez un terminal et placez-vous à la racine du projet
+- Entrez la commande `npm install`
+- Une fois l'installation terminée, entrez `npm run dev` pour lancer l'application.
+- L'application s'ouvre à l'adresse `http://localhost:3000`
 
 ## Note :
 
