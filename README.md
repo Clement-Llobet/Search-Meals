@@ -10,9 +10,14 @@ L'application lui renvoie les données spécifiques demandées.
 ## Stack :
 
 - **Vue.js**
+- Vite
 - Javascript
 - Tailwind CSS
 - HTML
+
+## Recommendations d'IDE :
+
+- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar)
 
 ## Installation :
 
