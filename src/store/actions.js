@@ -1,6 +1,6 @@
 import { ApiService } from "../service/apiService";
 
-const api = new ApiService('https://www.themealdb.com/api/json/v1/1/')
+const api = new ApiService(`${import.meta.env.VITE_API_BASE_URL}`)
 
 export const searchMeals = async ({ commit }, keyword) => {
     const response = await api.getMealByName(keyword);

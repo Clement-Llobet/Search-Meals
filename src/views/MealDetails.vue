@@ -57,7 +57,7 @@ import { useRoute } from "vue-router";
 import { ApiService } from "../service/apiService";
 import YouTubeButton from "../components/YoutubeButton.vue";
 
-const api = new ApiService("https://www.themealdb.com/api/json/v1/1/");
+const api = new ApiService(`${import.meta.env.VITE_API_BASE_URL}`);
 
 const route = useRoute();
 const meal = ref({});
