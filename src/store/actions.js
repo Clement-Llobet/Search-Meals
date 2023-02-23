@@ -7,12 +7,12 @@ export const searchMeals = async ({ commit }, keyword) => {
     commit('setSearchedMeals', response.meals);
 }
 
-export const searchedMealsByLetter = async ({ commit }, letter) => {
+export const searchMealsByLetter = async ({ commit }, letter) => {
     const response = await api.getMealByLetter(letter);
     commit('setSearchedMealsByLetter', response.meals);
 }
 
-export const searchedMealsByIngredient = async ({ commit }, ingredient) => {
+export const searchMealsByIngredient = async ({ commit }, ingredient) => {
     const response = await api.getMealByIngredient(ingredient)
     commit('setSearchedMealsByIngredient', response.meals);
 }
